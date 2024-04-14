@@ -1,4 +1,5 @@
-from reactpy import component, html, run
+from reactpy import component, html
+from reactpy.backend.flask import configure
 
 
 @component
@@ -6,4 +7,5 @@ def App():
     return html.h1("Hello, world!")
 
 
-run(App)
+app = Flask(__name__)
+configure(app, HelloWorld)
