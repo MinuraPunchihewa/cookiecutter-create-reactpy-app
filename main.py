@@ -8,4 +8,4 @@ def App():
 
 
 app = Flask(__name__)
-configure(app, HelloWorld)
+configure(app, App)
