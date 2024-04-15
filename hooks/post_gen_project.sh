@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cd {{cookiecutter.project_name}} && cat main.py
+cd ../{{cookiecutter.project_name}} && cat main.py
