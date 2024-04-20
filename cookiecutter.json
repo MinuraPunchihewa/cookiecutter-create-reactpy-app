@@ -1,3 +1,6 @@
 {
-    "app_name": "reactpy_app"
+    "app_name": "reactpy_app",
+    "__prompts__": {
+        "app_name": "App name"
+    }
 }
