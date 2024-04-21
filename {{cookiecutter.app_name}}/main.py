@@ -1,12 +1,7 @@
 from src import App
 
-from flask import Flask
-from importlib import import_module
+from utilities import get_app, configure_app
 
 
-backend_module = import_module(f"reactpy.backend.{{cookiecutter.backend}}")
-configure_function = getattr(backend_module, "configure")
-
-
-app = Flask(__name__)
-configure_function(app, App)
+app = get_app()
+configure_app(app, App)
