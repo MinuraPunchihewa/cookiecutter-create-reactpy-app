@@ -1,8 +1,7 @@
 from src import App
 
-from flask import Flask
-from reactpy.backend.flask import configure
+from utilities import get_app, configure_app
 
 
-app = Flask(__name__)
-configure(app, App)
+app = get_app()
+configure_app(app, App)
