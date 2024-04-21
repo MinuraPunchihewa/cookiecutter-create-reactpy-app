@@ -1,11 +1,9 @@
 {
     "app_name": "reactpy_app",
-    "version": "0.1.0",
     "description": "",
     "python_version": "^3.12",
     "__prompts__": {
         "app_name": "App name",
-        "version": "Version",
         "description": "Description",
         "python_version": "Compatible Python versions"
     }
