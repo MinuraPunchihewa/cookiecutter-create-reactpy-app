@@ -1,12 +1,8 @@
 {
     "app_name": "reactpy_app",
-    "description": "",
-    "python_version": "^3.12",
     "backend": "fastapi",
     "__prompts__": {
         "app_name": "App name",
-        "description": "Description",
-        "python_version": "Compatible Python versions",
         "backend": "Backend framework"
     }
 }
