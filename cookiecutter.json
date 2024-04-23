@@ -1,8 +1,8 @@
 {
-    "app_name": "reactpy_app",
-    "backend": "fastapi",
+    "project_directory": "reactpy_app",
+    "backend": "flask",
     "__prompts__": {
-        "app_name": "App name",
+        "project_directory": "Project directory",
         "backend": "Backend framework"
     }
 }
