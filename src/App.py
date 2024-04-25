@@ -1,4 +1,4 @@
-from reactpy import component, html, run
+from reactpy import component, html
 
 
 @component
@@ -9,6 +9,3 @@ def App():
         }),
         html.p('Edit src/App.py and save to reload.')
     )
-
-
-run(App)
