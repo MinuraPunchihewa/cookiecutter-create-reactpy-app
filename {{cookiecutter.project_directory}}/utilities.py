@@ -6,18 +6,20 @@ def get_app():
 
     if backend == "flask":
         from flask import Flask
-        
+
         app = Flask(__name__, static_folder="public")
     
     elif backend == "fastapi":
         from fastapi import FastAPI
-        
+        from fastapi.staticfiles import StaticFiles
+
         app = FastAPI()
         app.mount("/public", StaticFiles(directory="public"), name="public")
     
     elif backend == "starlette":
         from starlette.applications import Starlette
-        
+        from starlette.staticfiles import StaticFiles
+
         app = Starlette()
         app.mount("/public", StaticFiles(directory="public"), name="public")
 
