@@ -5,7 +5,7 @@ from reactpy import component, html
 def App():
     return html.div(
         html.img({
-            "src": "https://raw.githubusercontent.com/reactive-python/reactpy/main/branding/svg/reactpy-logo-square.svg"
+            "src": "/public/logo.svg"
         }),
         html.p('Edit src/App.py and save to reload.')
     )
