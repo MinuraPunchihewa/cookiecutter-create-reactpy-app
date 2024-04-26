@@ -6,15 +6,20 @@ def get_app():
 
     if backend == "flask":
         from flask import Flask
-        app = Flask(__name__)
+        
+        app = Flask(__name__, static_folder="public")
     
     elif backend == "fastapi":
         from fastapi import FastAPI
+        
         app = FastAPI()
+        app.mount("/public", StaticFiles(directory="public"), name="public")
     
     elif backend == "starlette":
         from starlette.applications import Starlette
+        
         app = Starlette()
+        app.mount("/public", StaticFiles(directory="public"), name="public")
 
     else:
         raise ValueError(f"Invalid backend: {backend}")
