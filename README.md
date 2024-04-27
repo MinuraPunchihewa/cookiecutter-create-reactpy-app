@@ -1,1 +1,1 @@
-# Cookiecutter Project for `create-reactpy-app`
+# Cookiecutter Project for Create ReactPy App
