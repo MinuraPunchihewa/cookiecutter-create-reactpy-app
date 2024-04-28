@@ -31,15 +31,20 @@ def App():
             }),
             html.p(
                 'Edit ',
-                html.code(
-                    {
-                        "style": {
-                            "color": "#61dafb"
-                        }
-                    }, 
-                    'src/App.js'
-                ),
+                html.code('src/App.js'),
                 ' and save to reload.'
+            ),
+            html.a(
+                {
+                    "className": "App-link",
+                    "href": "https://reactpy.dev/docs/index.html",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer",
+                    "style": {
+                        "color": "#61dafb"
+                    }
+                },
+                'Learn ReactPy'
             )
         )
     )
