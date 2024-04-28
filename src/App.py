@@ -31,8 +31,15 @@ def App():
             }),
             html.p(
                 'Edit ',
-                html.code({"style": {"color": "#61dafb"}}, 'src/App.js'),
-                ' save to reload.'
+                html.code(
+                    {
+                        "style": {
+                            "color": "#61dafb"
+                        }
+                    }, 
+                    'src/App.js'
+                ),
+                ' and save to reload.'
             )
         )
     )
