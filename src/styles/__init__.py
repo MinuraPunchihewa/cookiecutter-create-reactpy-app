@@ -1,2 +1,2 @@
-from .App import App, App_header, App_link, App_logo
-from .index import body, code
+from src.styles.App import App, App_logo, App_header, App_link
+from src.styles.index import body, code
