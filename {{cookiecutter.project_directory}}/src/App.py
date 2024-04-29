@@ -1,37 +1,29 @@
 from reactpy import component, html
+from src.styles import App as App_, App_logo, App_header, App_link, body, code
 
 
 @component
 def App():
     return html.div(
         {
-            "style": {
-                "textAlign": "center",
-            }
+            "style": App_.update(body)
         },
         html.header(
             {
-                "style": {
-                    "backgroundColor": "#282c34",
-                    "minHeight": "100vh",
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "alignItems": "center",
-                    "justifyContent": "center",
-                    "fontSize": "calc(10px + 2vmin)",
-                    "color": "white",
-                }
+                "style": App_header
             },
             html.img({
                 "src": "/public/logo.svg",
-                "style": {
-                    "height": "40vmin",
-                    "pointerEvents": "none",
-                }
+                "style": App_logo
             }),
             html.p(
                 'Edit ',
-                html.code('src/App.js'),
+                html.code(
+                    {
+                        "style": code
+                    },
+                    'src/App.js'
+                ),
                 ' and save to reload.'
             ),
             html.a(
@@ -40,9 +32,7 @@ def App():
                     "href": "https://reactpy.dev/docs/index.html",
                     "target": "_blank",
                     "rel": "noopener noreferrer",
-                    "style": {
-                        "color": "#61dafb"
-                    }
+                    "style": App_link
                 },
                 'Learn ReactPy'
             )
