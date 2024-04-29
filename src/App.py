@@ -7,6 +7,8 @@ def App():
         {
             "style": {
                 "textAlign": "center",
+                "margin": "-8px",
+                "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue'"
             }
         },
         html.header(
@@ -31,7 +33,14 @@ def App():
             }),
             html.p(
                 'Edit ',
-                html.code('src/App.js'),
+                html.code(
+                    {
+                        "style": {
+                            "fontFamily": "source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace"
+                        }
+                    },
+                    'src/App.js'
+                ),
                 ' and save to reload.'
             ),
             html.a(
