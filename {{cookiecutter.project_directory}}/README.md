@@ -36,4 +36,4 @@ Or
 
 The documentation for Create ReactPy App is still in progress.
 
-To learn React, check out the [ReactPy documentation](https://reactpy.dev/docs/index.html).
+To learn ReactPy, check out the [ReactPy documentation](https://reactpy.dev/docs/index.html).
