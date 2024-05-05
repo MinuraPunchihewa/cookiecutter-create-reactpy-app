@@ -29,7 +29,7 @@ make run
 Or
 
 ```bash
-{{run_command}}
+<run_command>
 ```
 
 ## Learn More
