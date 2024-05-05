@@ -1,4 +1,4 @@
-# Cookiecutter Project for Create ReactPy App
+# Cookiecutter Create ReactPy App
 Copyright © 2023 Minura Punchihewa
 
 This is the Cookiecutter project used for [Create ReactPy App](https://github.com/MinuraPunchihewa/create-reactpy-app).
