@@ -32,6 +32,8 @@ Or
 <run_command>
 ```
 
+Now, open http://localhost:8000/ to see your app.
+
 ## Learn More
 
 The documentation for Create ReactPy App is still in progress.
