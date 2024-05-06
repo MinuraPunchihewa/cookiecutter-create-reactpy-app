@@ -1,4 +1,4 @@
-# # Getting Started with Create ReactPy App
+# Getting Started with Create ReactPy App
 
 This project was bootstrapped with [Create ReactPy App](https://github.com/MinuraPunchihewa/create-reactpy-app).
 
