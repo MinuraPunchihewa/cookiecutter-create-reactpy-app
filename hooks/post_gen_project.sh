@@ -20,3 +20,4 @@ echo "reactpy[$backend]" >> requirements.txt
 echo "$server" >> requirements.txt
 
 sed -i 's/<run_command>/'"$run_command"'/' README.md
+sed -i 's/<run_command>/'"$run_command"'/' Makefile
