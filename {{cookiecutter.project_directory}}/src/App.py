@@ -6,7 +6,7 @@ from src.styles import App as App_, App_logo, App_header, App_link, body, code
 def App():
     return html.div(
         {
-            "style": App_.update(body)
+            "style": {**App_, **body}
         },
         html.header(
             {
