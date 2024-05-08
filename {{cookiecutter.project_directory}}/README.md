@@ -32,7 +32,7 @@ Or
 <run_command>
 ```
 
-Now, open http://localhost:8000/ to see your app.
+Now, open http://localhost:8000 to see your app.
 
 ## Learn More
 
