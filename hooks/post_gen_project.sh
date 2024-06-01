@@ -7,10 +7,10 @@ run_command=""
 
 if [ "$backend" == "flask" ]; then
     server="gunicorn"
-    run_command="gunicorn main:app --reload"
+    run_command="gunicorn main:app"
 elif [ "$backend" == "fastapi" ] || [ "$backend" == "starlette" ]; then
     server="uvicorn"
-    run_command="uvicorn main:app --reload"
+    run_command="uvicorn main:app"
 else 
     echo "Backend not supported!"
     exit 1
