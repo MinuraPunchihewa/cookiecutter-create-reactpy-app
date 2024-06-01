@@ -13,7 +13,7 @@ This project is not intended to be used directly, but can be done so if needed b
 cookiecutter https://github.com/MinuraPunchihewa/cookiecutter-create-reactpy-app
 ```
 
-This will prompt you to enter the project name (directory) and the backend framework that you want to use with ReactPy. The supported backend frameworks at the moment are `flask`, `fastapi` and `starlette`.
+This will prompt you to enter the project name (directory) and the backend framework that you want to use with ReactPy. The supported backend frameworks at the moment are `fastapi`, `starlette` and `flask`.
 
 > Note: You will need to have [Cookiecutter](https://cookiecutter.readthedocs.io/en/stable/installation.html) installed to run the above command.
 
